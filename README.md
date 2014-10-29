@@ -1,3 +1,5 @@
+In addition to the web service, there is now a JAVA library to perform language detection using CLD2. Thats present in **java/com/deezer/research/lydia2**. Refer to the README over there for more information.
+
 Weslang
 =======
 Weslang: is a standalone WEb Service to detect the LANGuage of a given piece

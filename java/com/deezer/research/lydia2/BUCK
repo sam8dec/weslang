@@ -1,0 +1,19 @@
+java_library(
+    name = 'lydia2',
+    srcs = [
+        'CLD.java',
+    ],
+    deps = [
+        '//java/com/deezer/research/cld2:cld2',
+    ],
+    visibility = [
+        'PUBLIC',
+    ],
+)
+
+java_binary(
+    name = 'lydia2-cld',
+    deps = [
+        ':lydia2',
+    ],
+)
